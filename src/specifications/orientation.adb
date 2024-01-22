@@ -7,15 +7,10 @@ package body Orientation is
 
    function ValeurOrientation (o : in Type_Orientation) return Integer is
    begin
-    -- Utiliser un cas pour mapper chaque orientation à sa valeur correspondante.
-      case o is
-         when NORD  => return -1;
-         when SUD   => return 1;
-         when EST   => return -2;
-         when OUEST => return 2;
-         when others => return 0;  -- Gestion de cas inattendus
-      end case;
+    -- Retorune la valeur correspondante de l'orientation.
+      return Integer(o);
    end ValeurOrientation;
+
 
    ------------------------
    -- orientationInverse --
