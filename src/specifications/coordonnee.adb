@@ -8,9 +8,12 @@ package body Coordonnee is
    function ConstruireCoordonnees
      (Ligne, Colonne : in Integer) return Type_Coordonnee
    is
-      begin
+      C : Type_Coordonnee;
+   begin
       -- Crée une instance de Type_Coordonnee avec les valeurs de ligne et colonne fournies.
-      return (Ligne => Ligne, Colonne => Colonne);
+         C.Ligne := Ligne;
+         C.Colonne := Colonne;
+      return C;
    end ConstruireCoordonnees;
 
    ------------------
