@@ -13,7 +13,7 @@ package body Ile is
          raise VALEUR_ILE_INVALIDE;
       else
          i.v := v;
-      return i;
+         return i;
       end if;
    end ConstruireIle;
 
@@ -29,10 +29,9 @@ package body Ile is
    begin
       if i.v = 0 then
          return True ;
-         else
-            return false;
-         end if;
-
+      else
+         return false;
+      end if;
    end EstIleComplete;
 
    -- modifie l'île i en lui soustrayant la valeur v
@@ -41,15 +40,16 @@ package body Ile is
    -- lève l'exception VALEUR_PONT_INVALIDE si 1<= p et 2<= p
    -- lève l'exception PONT_IMPOSSIBLE si valeur de l'île - valeur du pont < 0
    function ModifierIle (i : in Type_Ile; p : in Integer) return Type_Ile is
+      v:Type_Ile;
    begin
       if not (1 <= p and p <= 2 ) then
          raise VALEUR_PONT_INVALIDE;
-      elsif not (i.v - p >= 0) then
-         raise PONT_IMPOSSIBLE;
-      else
-         --i.v := i.v-p;
-         return (v => i.v - p);
       end if;
+      if not (i.v - p >= 0) then
+         raise PONT_IMPOSSIBLE;
+      end if;
+      v.v:=i.v - p;
+      return (v);
    end ModifierIle;
 
 end Ile;
