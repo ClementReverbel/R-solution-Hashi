@@ -1,0 +1,34 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U coordonnee%b		coordonnee.adb		e5d5b101 NE OO PK
+
+U coordonnee%s		coordonnee.ads		b1b28967 EE NE OO PK
+
+D coordonnee.ads	20240122081318 b1b28967 coordonnee%s
+D coordonnee.adb	20240109111056 54673866 coordonnee%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [construirecoordonnees coordonnee 6 13 none]
+G c Z s b [obtenirligne coordonnee 10 13 none]
+G c Z s b [obtenircolonne coordonnee 13 13 none]
+G c Z s s [type_coordonneeIP coordonnee 16 9 none]
+X 1 coordonnee.ads
+1K9*Coordonnee 16E9 21l5 21e15 2|2b14 36l5 36t15
+3R9*Type_Coordonnee 7r43 10r34 13r36 16c9 19e14 2|9r43 20r34 30r36
+6V13*ConstruireCoordonnees{3R9} 7>7 7>14 2|8b13 14l8 14t29
+7i7 Ligne{integer} 2|9b7 13r24
+7i14 Colonne{integer} 2|9b14 13r42
+10V13*ObtenirLigne{integer} 10>27 2|20b13 24l8 24t20
+10r27 C{3R9} 2|20b27 23r14
+13V13*ObtenirColonne{integer} 13>29 2|30b13 34l8 34t22
+13r29 C{3R9} 2|30b29 33r14
+17i7*Ligne{integer} 2|13m15 23r16
+18i7*Colonne{integer} 2|13m31 33r16
+

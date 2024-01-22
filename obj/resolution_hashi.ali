@@ -1,0 +1,236 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U resolution_hashi%b	resolution_hashi.adb	7feef714 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U resolution_hashi%s	resolution_hashi.ads	c7442675 EE OO PK
+W casehashi%s		casehashi.adb		casehashi.ali
+W coordonnee%s		coordonnee.adb		coordonnee.ali
+W grille%s		grille.adb		grille.ali
+W ile%s			ile.adb			ile.ali
+W orientation%s		orientation.adb		orientation.ali
+W pont%s		pont.adb		pont.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W typecase%s		typecase.adb		typecase.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D casehashi.ads		20240122081318 509b8585 casehashi%s
+D coordonnee.ads	20240122081318 b1b28967 coordonnee%s
+D grille.ads		20240122130932 30361ea2 grille%s
+D ile.ads		20240122081320 990b3419 ile%s
+D orientation.ads	20240122081320 67230454 orientation%s
+D pont.ads		20240122081320 e5c3dea1 pont%s
+D resolution_hashi.ads	20240122154342 e729c12c resolution_hashi%s
+D resolution_hashi.adb	20240122155020 98c73638 resolution_hashi%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D typecase.ads		20240122081320 ea991bf5 typecase%s
+G a e
+G c Z s b [rechercheruneilecible resolution_hashi 34 14 none]
+G c Z s b [construiretableausuccesseurs resolution_hashi 43 14 none]
+G c Z s b [construirelechemin resolution_hashi 50 14 none]
+G c Z s b [resoudrehashi resolution_hashi 58 14 none]
+G c Z s s [enregistrement_tabIP resolution_hashi 11 9 none]
+G c Z s s [Ttype_tab_successeursBIP resolution_hashi 17 5 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [obtenirtypecase casehashi 16 13 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [estile typecase 18 13 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [obtenirsuivant grille 62 13 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [estpont typecase 21 13 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [estmer typecase 24 13 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [obtenirile casehashi 24 13 none]
+G r c none [rechercheruneilecible resolution_hashi 34 14 none] [obtenirvaleur ile 19 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [obtenirtypecase casehashi 16 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [estile typecase 18 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [obtenirsuivant grille 62 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [estpont typecase 21 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [estmer typecase 24 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [obtenirile casehashi 24 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [obtenirvaleur ile 19 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [construirecoordonnees coordonnee 6 13 none]
+G r c none [construiretableausuccesseurs resolution_hashi 43 14 none] [construirecase casehashi 13 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenircoordonnee casehashi 19 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenirligne coordonnee 10 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenirsuivant grille 62 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [modifierpont casehashi 43 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [modifiercase grille 67 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenirile casehashi 24 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenirvaleur ile 19 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [obtenirvaleur pont 15 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [construireile ile 16 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [modifierile ile 30 13 none]
+G r c none [construirelechemin resolution_hashi 50 14 none] [modifierile casehashi 35 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [nblignes grille 25 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [nbcolonnes grille 28 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [construiregrille grille 22 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [construirecoordonnees coordonnee 6 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [construirecase casehashi 13 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [estcomplete grille 34 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [egal grille 72 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenircase grille 49 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenirtypecase casehashi 16 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [estile typecase 18 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenirsuivant grille 62 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [estpont typecase 21 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [estmer typecase 24 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenirile casehashi 24 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenirvaleur ile 19 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [Oeq casehashi 49 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenircoordonnee casehashi 19 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenirligne coordonnee 10 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [modifierpont casehashi 43 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [modifiercase grille 67 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [obtenirvaleur pont 15 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [construireile ile 16 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [modifierile ile 30 13 none]
+G r c none [resoudrehashi resolution_hashi 58 14 none] [modifierile casehashi 35 13 none]
+X 4 casehashi.ads
+6K9*CaseHashi 61e14 10|6w6 6r21
+8R9*Type_CaseHashi 59e14 10|12r15 35r34 36r40 44r38 51r51 52r22 11|9r39 10r42
+. 12r21 13r21 56r38 60r11 123r51 124r22 130r21 131r15 175r21 179r17
+13V13*ConstruireCase{8R9} 11|75s24 88s24 101s24 114s24 184s18
+16V13*ObtenirTypeCase{17|3I9} 11|19s21 24s21 25s23 25s65 31s23 192s26
+19V13*ObtenirCoordonnee{5|3R9} 11|134s35 134s75 136s35 136s74 138s37 138s78
+. 140s37 140s79
+24V13*ObtenirIle{7|7R9} 11|34s30 68s27 68s63 81s27 81s63 94s27 94s63 107s27
+. 107s63 148s29 158s29 194s44 197s45 197s94 205s39 210s39 217s39
+35V13*modifierIle{8R9} 11|155s15 165s14
+43V13*modifierPont{8R9} 11|145s19
+49V14*"="{boolean} 11|196s44 213s44 220s44
+X 5 coordonnee.ads
+1K9*Coordonnee 21e15 10|4w6 4r22
+3R9*Type_Coordonnee 19e14 11|174r27
+6V13*ConstruireCoordonnees{3R9} 11|75s39 88s39 101s39 114s39 184s33 190s37
+10V13*ObtenirLigne{integer} 11|134s22 134s62 136s22 136s61
+13V13*ObtenirColonne{integer} 11|138s22 138s63 140s22 140s64
+X 6 grille.ads
+8K9*Grille 85e11 10|1w6 1r22
+10R9*Type_Grille 83e14 10|35r14 44r18 51r22 58r40 11|9r19 56r18 123r22 173r40
+. 181r22
+15X4*PAS_DE_SUIVANT 11|46r12
+22V13*ConstruireGrille{10R9} 11|183s23
+25V13*nbLignes{integer} 11|183s40 188s22
+28V13*nbColonnes{integer} 11|183s52 189s25
+34V13*estComplete{boolean} 11|185s15 228s18
+49V13*ObtenirCase{4|8R9} 11|191s31
+62V13*obtenirSuivant{4|8R9} 11|23s25 25s81 40s21 144s25
+67V13*modifierCase{10R9} 11|146s13 156s10 166s10
+72V13*egal{boolean} 11|186s32
+X 7 ile.ads
+5K9*Ile 38e8 10|3w6 3r15
+7R9*Type_Ile 36e14 11|128r11
+16V13*ConstruireIle{7R9} 11|150s15 152s15 160s15 162s15
+19V13*ObtenirValeur{integer} 11|34s16 68s13 68s49 81s13 81s49 94s13 94s49
+. 107s13 107s49 148s15 158s15 194s30 197s31 197s80 205s25 210s25 217s25
+30V13*modifierIle{7R9} 11|153s15 163s15
+X 8 orientation.ads
+1K9*Orientation 31e16 10|7w6 7r23
+3I9*Type_Orientation<short_short_integer> 10|13r14 35r57 53r22 11|9r62 125r22
+6i4*NORD{3I9} 11|64r33 65r20 133r12
+9i4*SUD{3I9} 11|77r33 78r20 135r15
+12i4*EST{3I9} 11|90r33 91r20 137r15
+15i4*OUEST{3I9} 11|103r33 104r20
+X 9 pont.ads
+1K9*Pont 32e9 10|2w6 2r17
+3I9*Type_Pont<short_short_integer> 10|52r48 11|124r48 180r12
+6i4*UN{3I9} 11|198r37 206r28 211r28 218r28
+9i4*DEUX{3I9} 11|200r37
+15V13*obtenirValeur{integer} 11|148s49 158s48
+X 10 resolution_hashi.ads
+9K9*Resolution_Hashi 68l5 68e21 11|2b14 232l5 232t21
+11R9*Enregistrement_Tab 14e14 17r49
+12r7*Element{4|8R9} 11|67m15 75m15 80m15 88m15 93m15 101m15 106m15 114m15
+. 196r37 197r65 202m72 208m69 213r37 214m72 220r37 221m72
+13i7*Orient{8|3I9} 11|65m12 78m12 91m12 104m12 202r94 208r91 214r94 221r94
+17A10*Type_Tab_Successeurs(11R9)<integer> 44r62 11|56r62 176r13
+20X4*N_EST_PAS_UNE_ILE 11|20r16
+21X4*PAS_D_ILE_CIBLE
+34U14*rechercherUneIleCible 35>7 35>27 35>50 36<7 36<30 11|8b14 49l8 49t29
+. 64s7 77s7 90s7 103s7
+35r7 G{6|10R9} 11|9b7 23r40 25r96 40r36
+35r27 C{4|8R9} 11|9b32 18r22 19r37
+35i50 O{8|3I9} 11|9b55 23r56 25r112 40r52
+36b7 Trouve{boolean} 11|10b7 17m7 26m16 35m16 38m16 47m10
+36r30 ile{4|8R9} 11|10b32 40m16
+43U14*construireTableauSuccesseurs 44>7 44>31 44<54 45<7 45<33 11|55b14 116l8
+. 116t36 193s19
+44r7 G{6|10R9} 11|56b7 64r29 77r29 90r29 103r29
+44r31 C{4|8R9} 11|56b31 64r31 68r74 77r31 81r74 90r31 94r74 103r31 107r74
+44a54 s{17A10} 11|56b54 65m7 67m10 75m10 78m7 80m10 88m10 91m7 93m10 101m10
+. 104m7 106m10 114m10
+45i7 NbPonts{integer} 11|57b7 62m7 69m13 69r22 71m13 71r22 82m13 82r22 84m13
+. 84r22 95m13 95r22 97m13 97r22 108m13 108r22 110m13 110r22
+45i33 NbNoeuds{integer} 11|57b33 63m7 73m10 73r20 86m10 86r20 99m10 99r20
+. 112m10 112r20
+50U14*construireLeChemin 51=7 51=35 52=7 52>38 53>7 11|122b14 167l8 167t26
+. 202s28 208s25 214s28 221s28
+51r7 G{6|10R9} 11|123b7 144r40 146m10 146r26 156m7 156r23 166m7 166r23
+51r35 source{4|8R9} 11|123b35 134r53 136r92 138r96 140r55 142r22 148r40 155m7
+. 155r27 156r25
+52r7 cible{4|8R9} 11|124b7 134r93 136r53 138r55 140r97 158r40 165m7 165r26
+. 166r25
+52i38 pont{9|3I9} 11|124b38 145r46 148r63 158r62
+53i7 o{8|3I9} 11|125b7 133r10 135r13 137r13 144r56
+58U14*ResoudreHashi 58=29 58<53 11|173b14 230l8 230t21
+58r29 G{6|10R9} 11|173b29 183r49 183r63 185r27 186r37 187r26 188r31 189r36
+. 191r43 193r48 202m47 208m44 214m47 221m47 228r30
+58b53 Trouve{boolean} 11|173b53 185m7 186r17 228m10
+X 11 resolution_hashi.adb
+12r7 Case_actuelle{4|8R9} 18m7 23r42 25r39 29m16 32m13 40r38 43m10
+13r7 Case_suivante{4|8R9} 23m10 24r37 25r98 29r31 31r39 32r28 34r41 43r25
+14b7 Reponse{boolean} 16m7 22r17 27m16 36m16 39m16 48m10
+59b7 Trouve{boolean} 64m38 66r10 77m37 79r10 90m37 92r10 103m39 105r10
+60r7 Ile{4|8R9} 64m45 67r24 68r38 77m44 80r24 81r38 90m44 93r24 94r38 103m46
+. 106r24 107r38
+127i7 repetition{integer} 134m10 136m10 138m10 140m10 143r19
+128r7 ile{7|7R9} 150m10 152m10 153m10 153r27 155r34 160m10 162m10 163m10
+. 163r27 165r32
+129i7 valeur{integer} 148m7 149r10 150r29 158m7 159r10 160r29
+130r7 case_actuelle{4|8R9} 142m7 144m10 144r42 145r32
+131r7 nv_case{4|8R9} 145m10 146r28
+143i11 i{integer}
+174r7 coordonnee_actuelle{5|3R9} 190m16 191r45
+175r7 case_actuelle{4|8R9} 191m16 192r42 193r50 194r55 197r105 202m49 202r49
+. 205r50 208m46 208r46 210r50 214m49 214r49 217r50 221m49 221r49
+176a7 tab_s{10|17A10} 193m64 195r31 196r28 197r56 202m63 202r63 202r85 207r31
+. 208m60 208r60 208r82 212r31 213r28 214m63 214r63 214r85 219r31 220r28 221m63
+. 221r63 221r85
+177i7 nbponts{integer} 193m70 194r22
+178i7 nbvoisins{integer} 193m78 210r72 217r72
+179r7 case_vide{4|8R9} 184m7 196r46 213r46 220r46
+180i7 pont{9|3I9} 198m31 200m31 202r80 206m22 208r77 211m22 214r80 218m22
+. 221r80
+181r7 Grille_bloquee{6|10R9} 183m7 186r39 187m10
+188i14 i{integer} 190r59
+189i17 j{integer} 190r61
+195i26 k{integer} 196r34 197r62 202r69 202r91
+207i26 k{integer} 208r66 208r88
+212i26 k{integer} 213r34 214r69 214r91
+219i26 k{integer} 220r34 221r69 221r91
+X 17 typecase.ads
+1K9*TypeCase 10|5w6 5r20 17|31e13
+3I9*Type_TypeCase<short_short_integer>
+18V13*estIle{boolean} 11|19s14 192s19
+21V13*estPont{boolean} 11|24s13
+24V13*estMer{boolean} 11|25s16 25s58 31s16
+

@@ -1,0 +1,124 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U casehashi%b		casehashi.adb		e11e18c9 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+
+U casehashi%s		casehashi.ads		7778fdaf EE OO PK
+W coordonnee%s		coordonnee.adb		coordonnee.ali
+W ile%s			ile.adb			ile.ali
+W pont%s		pont.adb		pont.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W typecase%s		typecase.adb		typecase.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D casehashi.ads		20240122081318 509b8585 casehashi%s
+D casehashi.adb		20240122141556 b1859d4c casehashi%b
+D coordonnee.ads	20240122081318 b1b28967 coordonnee%s
+D ile.ads		20240122081320 990b3419 ile%s
+D orientation.ads	20240122081320 67230454 orientation%s
+D pont.ads		20240122081320 e5c3dea1 pont%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D typecase.ads		20240122081320 ea991bf5 typecase%s
+G a e
+G c Z s b [construirecase casehashi 13 13 none]
+G c Z s b [obtenirtypecase casehashi 16 13 none]
+G c Z s b [obtenircoordonnee casehashi 19 13 none]
+G c Z s b [obtenirile casehashi 24 13 none]
+G c Z s b [obtenirpont casehashi 29 13 none]
+G c Z s b [modifierile casehashi 35 13 none]
+G c Z s b [modifierpont casehashi 43 13 none]
+G c Z s b [Oeq casehashi 49 13 none]
+G c Z s s [type_casehashiIP casehashi 54 9 none]
+G r c none [obtenirile casehashi 24 13 none] [estile typecase 18 13 none]
+G r c none [obtenirpont casehashi 29 13 none] [estpont typecase 21 13 none]
+G r c none [modifierile casehashi 35 13 none] [estpont typecase 21 13 none]
+G r c none [modifierpont casehashi 43 13 none] [estile typecase 18 13 none]
+G r c none [modifierpont casehashi 43 13 none] [Oeq pont 25 13 none]
+G r c none [modifierpont casehashi 43 13 none] [estmer typecase 24 13 none]
+G r c none [Oeq casehashi 49 13 none] [obtenirligne coordonnee 10 13 none]
+G r c none [Oeq casehashi 49 13 none] [obtenircolonne coordonnee 13 13 none]
+G r c none [Oeq casehashi 49 13 none] [valeurtypecase typecase 15 13 none]
+G r c none [Oeq casehashi 49 13 none] [obtenirvaleur ile 19 13 none]
+G r c none [Oeq casehashi 49 13 none] [estile typecase 18 13 none]
+G r c none [Oeq casehashi 49 13 none] [Oeq pont 25 13 none]
+G r c none [Oeq casehashi 49 13 none] [estpont typecase 21 13 none]
+G r c none [Oeq casehashi 49 13 none] [estmer typecase 24 13 none]
+X 4 casehashi.ads
+6K9*CaseHashi 54E9 61l5 61e14 5|2b14 148l5 148t14
+8R9*Type_CaseHashi 13r60 16r37 19r39 24r32 29r33 36r14 36r54 44r14 44r55
+. 50r15 50r39 54c9 59e14 5|8r60 9r11 23r37 33r39 43r32 58r33 74r14 74r54
+. 76r14 92r14 92r55 94r12 120r26 120r50
+10X4*TYPE_INCOMPATIBLE 5|48r16 63r16 79r16 99r16
+13V13*ConstruireCase{8R9} 13>29 5|8b13 17l8 17t22
+13r29 C{6|3R9} 5|8b29 12r15
+16V13*ObtenirTypeCase{15|3I9} 16>30 5|23b13 27l8 27t23
+16r30 C{8R9} 5|23b30 26r14
+19V13*ObtenirCoordonnee{6|3R9} 19>32 5|33b13 37l8 37t25 81s17
+19r32 C{8R9} 5|33b32 36r14
+24V13*ObtenirIle{7|7R9} 24>25 5|43b13 52l8 52t18
+24r25 C{8R9} 5|43b25 46r21 51r14
+29V13*ObtenirPont{9|3I9} 29>26 5|58b13 67l8 67t19
+29r26 C{8R9} 5|58b26 61r22 66r14
+35V13*modifierIle{8R9} 36>7 36>30 5|73b14 85l8 85t19
+36r7 C{8R9} 5|74b7 78r18 81r35
+36r30 I{7|7R9} 5|74b30 83r17
+43V13*modifierPont{8R9} 44>7 44>30 5|91b13 114l8 114t20
+44r7 C{8R9} 5|92b7 94r30 97r17 102r14 107r20
+44i30 p{9|3I9} 5|92b30 110r18
+49V14*"="{boolean} 50>7 50>31 5|120b14 146l9 146t11
+50r7 C1{8R9} 5|120b18 124r23 124r69 126r28 128r23 128r52 132r27 132r46 136r26
+50r31 C2{8R9} 5|120b42 124r44 124r92 126r51 128r74 132r51
+55r7*C{6|3R9} 5|12m10 36r16 81m12 124r26 124r47 124r72 124r95
+56i7*T{15|3I9} 5|14m10 26r16 46r23 61r24 78r20 82m12 97r19 104m13 107r22
+. 109m13 126r31 126r54 128r26 132r30 136r29
+57r7*I{7|7R9} 5|51r16 83m12 128r55 128r77
+58i7*P{9|3I9} 5|66r16 102r16 105m13 110m13 132r49 132r54
+X 5 casehashi.adb
+9r7 ca{4|8R9} 12m7 14m7 16r14
+76r7 NewC{4|8R9} 81m7 82m7 83m7 84r14
+94r7 ca{4|8R9} 104m10 105m10 109m10 110m10 113r14
+X 6 coordonnee.ads
+1K9*Coordonnee 4|1w6 1r22 6|21e15
+3R9*Type_Coordonnee 4|13r36 19r62 55r11 5|8r36 33r62 6|19e14
+10V13*ObtenirLigne{integer} 5|124s10 124s31
+13V13*ObtenirColonne{integer} 5|124s54 124s77
+X 7 ile.ads
+5K9*Ile 4|2w6 2r22 7|38e8
+7R9*Type_Ile 4|24r55 36r37 57r11 5|43r55 74r37 7|36e14
+19V13*ObtenirValeur{integer} 5|128s38 128s60
+X 9 pont.ads
+1K9*Pont 4|3w6 3r22 9|32e9
+3I9*Type_Pont<short_short_integer> 4|29r56 44r37 58r11 5|58r56 92r37
+6i4*UN{3I9} 5|102r18
+9i4*DEUX{3I9} 5|105r18
+25V14*"="{boolean} 5|102s11 132s43
+X 15 typecase.ads
+1K9*TypeCase 4|4w6 4r22 15|31e13
+3I9*Type_TypeCase<short_short_integer> 4|16r60 56r11 5|23r60
+6i4*NOEUD{3I9} 5|82r17
+9i4*ARETE{3I9} 5|104r18 109r18
+12i4*MER{3I9} 5|14r15
+15V13*ValeurTypeCase{integer} 5|126s13 126s36
+18V13*estIle{boolean} 5|46s14 97s10 128s16
+21V13*estPont{boolean} 5|61s14 78s10 132s19
+24V13*estMer{boolean} 5|107s13 136s19
+

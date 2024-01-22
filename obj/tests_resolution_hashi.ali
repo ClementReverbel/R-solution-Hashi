@@ -1,0 +1,122 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tests_resolution_hashi%b  tests_resolution_hashi.adb  707f6dec NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W affichage%s		affichage.adb		affichage.ali
+W grille%s		grille.adb		grille.ali
+W remplir_grille_hashi%s  remplir_grille_hashi.adb  remplir_grille_hashi.ali
+W resolution_hashi%s	resolution_hashi.adb	resolution_hashi.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D affichage.ads		20240122081320 c07f7ff8 affichage%s
+D casehashi.ads		20240122081318 509b8585 casehashi%s
+D coordonnee.ads	20240122081318 b1b28967 coordonnee%s
+D grille.ads		20240122130932 30361ea2 grille%s
+D ile.ads		20240122081320 990b3419 ile%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D orientation.ads	20240122081320 67230454 orientation%s
+D pont.ads		20240122081320 e5c3dea1 pont%s
+D remplir_grille_hashi.ads  20240122081320 d4cbc021 remplir_grille_hashi%s
+D resolution_hashi.ads	20240122154342 e729c12c resolution_hashi%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D tests_resolution_hashi.adb  20240122081320 eb6b5172 tests_resolution_hashi%b
+D typecase.ads		20240122081320 ea991bf5 typecase%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [tests_resolution_hashi standard 11 11 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v1 remplir_grille_hashi 5 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v2 remplir_grille_hashi 6 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v3 remplir_grille_hashi 7 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v4 remplir_grille_hashi 8 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v5 remplir_grille_hashi 9 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v6 remplir_grille_hashi 10 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v7 remplir_grille_hashi 11 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [construire_grille_v8 remplir_grille_hashi 12 13 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [affichergrille affichage 34 14 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [resoudrehashi resolution_hashi 58 14 none]
+G r c none [tests_resolution_hashi standard 11 11 none] [afficherresultat affichage 44 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 39|2r6 2r31 3r6 3r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 39|3w10 3r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 39|2w10 2r35
+262U14*New_Line 39|19s7 23s7 27s7
+506U14*Put_Line 39|20s7 21s7 22s7
+X 13 affichage.ads
+10K9*Affichage 47e14 39|4w6 4r31
+34U14*AfficherGrille 39|24s7 28s7
+44U14*AfficherResultat 39|26s7
+X 16 grille.ads
+8K9*Grille 85e11 39|6w6 6r18
+10R9*Type_Grille 83e14 39|16r31 32r12 33r12 34r12 35r12 36r12 37r12 38r12
+. 39r12
+X 22 remplir_grille_hashi.ads
+3K9*Remplir_Grille_Hashi 14e25 39|8w6 8r32
+5V13*Construire_Grille_V1{16|10R9} 39|48s10
+6V13*Construire_Grille_V2{16|10R9} 39|49s10
+7V13*Construire_Grille_V3{16|10R9} 39|50s10
+8V13*Construire_Grille_V4{16|10R9} 39|51s10
+9V13*Construire_Grille_V5{16|10R9} 39|52s10
+10V13*Construire_Grille_V6{16|10R9} 39|53s10
+11V13*Construire_Grille_V7{16|10R9} 39|54s10
+12V13*Construire_Grille_V8{16|10R9} 39|55s10
+X 23 resolution_hashi.ads
+9K9*Resolution_Hashi 68e21 39|9w6 9r32
+58U14*ResoudreHashi 39|25s7
+X 39 tests_resolution_hashi.adb
+11U11*tests_Resolution_Hashi 11b11 71l5 71t27
+16U14 test 16b14 16=20 16>44 29l8 29t12 62s4 63s4 64s4 65s4 66s4 67s4 68s4
+. 69s4
+16r20 g{16|10R9} 24r23 25m22 26r24 28r23
+16a44 m{string} 21r17
+17b7 Trouve{boolean} 25m25 26r26
+31b4 TRACE{boolean}
+32r4 V1{16|10R9} 48m4 62m10 62r10
+33r4 V2{16|10R9} 49m4 63m10 63r10
+34r4 V3{16|10R9} 50m4 64m10 64r10
+35r4 V4{16|10R9} 51m4 65m10 65r10
+36r4 V5{16|10R9} 52m4 66m10 66r10
+37r4 V6{16|10R9} 53m4 67m10 67r10
+38r4 V7{16|10R9} 54m4 68m10 68r10
+39r4 V8{16|10R9} 55m4 69m10 69r10
+

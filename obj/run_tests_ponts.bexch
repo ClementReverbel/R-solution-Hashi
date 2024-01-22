@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_tests_ponts.o
+[PROJECT FILES]
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\hashi.gpr
+20240122081318 7baf16de9e239a93bcfa4dfc7da73f31
+[BOUND OBJECT FILES]
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\pont.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\types_tests.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\a_tester_pont.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\run_tests_ponts.o
+[GENERATED SOURCE FILES]
+b__run_tests_ponts.ads
+b__run_tests_ponts.adb
+b__run_tests_ponts.ali
+[RESULTING OPTIONS]
+-LC:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\
+-LC:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__tests_resolution_hashi.o
+[PROJECT FILES]
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\hashi.gpr
+20240122081318 7baf16de9e239a93bcfa4dfc7da73f31
+[BOUND OBJECT FILES]
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\coordonnee.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\orientation.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\pont.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\ile.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\typecase.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\casehashi.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\grille.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\resolution_hashi.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\affichage.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\remplir_grille_hashi.o
+C:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\tests_resolution_Hashi.o
+[GENERATED SOURCE FILES]
+b__tests_resolution_hashi.ads
+b__tests_resolution_hashi.adb
+b__tests_resolution_hashi.ali
+[RESULTING OPTIONS]
+-LC:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\
+-LC:\ADA_TP\sae102\Hashi_Fab_Case_V2_Fonctionnelle_A_COMPLETER_23-24\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
